@@ -1,0 +1,110 @@
+# Archivos fuente compilados
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Paquetes
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Registros y bases de datos
+*.log
+*.sql
+*.sqlite
+
+# Archivos generados por el sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Eclipse
+.project
+.classpath
+.settings/
+/doc/
+
+# IntelliJ IDEA
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+qodana.yaml
+mvnw
+mvnw.cmd
+.mvn/wrapper/
+/documentacion/
+
+# Microsoft Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-*
+
+# Archivos temporales
+*~
+*.swp
+*.bak
+*.tmp
+
+# Dependencias y archivos generados por gestores de paquetes
+/node_modules
+/bower_components
+/packages
+
+# Archivos de construcción y resultados de pruebas
+/build/
+/dist/
+/coverage/
+
+# Archivos de configuración específicos de proyectos
+/config/
+
+# Archivos de registro y salida
+/logs/
+/output/
+
+# Otros archivos específicos de herramientas y entornos de desarrollo
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
